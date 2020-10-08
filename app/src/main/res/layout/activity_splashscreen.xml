@@ -14,8 +14,20 @@
         android:scaleType="centerCrop"
         android:src="@drawable/ss"
         />
+    
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=".KOPi"
+        android:textColor="#ffffff"
+        android:textSize="26sp"
+        />
 
     <ProgressBar
+        android:layout_marginBottom="20dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/sstext"
