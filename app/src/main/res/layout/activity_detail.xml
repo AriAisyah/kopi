@@ -38,6 +38,15 @@
         android:layout_marginTop="25dp"
         android:textSize="20sp"
         android:layout_below="@id/imgDetail"/>
+        
+    <view
+        android:id="@+id/viewLane"
+        android:background="#ffffff"
+        android:layout_width="100dp"
+        android:layout_height="2dp"
+        android:layout_below="@+id/ketDetail"
+        android:layout_centerHorizontal="true"
+        />
 
     </RelativeLayout>
 
